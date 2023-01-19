@@ -16,13 +16,15 @@
     padding: 0px;
 }
 header{
-    padding: 10px 0px;
+    padding: 10px ;
     font-family: 'bebas Neue' ;
     background-image:linear-gradient(to top, var(--cor1), var(--cor0));
-    height: 108px;
+   
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.288);
     margin-left: 0px;
     margin-bottom: 0px;
+  
+    
 }
 
 header h1{
@@ -36,8 +38,11 @@ header h1{
 
 
 header nav{
-    margin: auto;
-
+    margin-left: -10px;
+    max-width: 1960px;
+    min-width: 0px;
+    margin-right: -13px;
+  
     background-color: var(--cor1);
     padding: 2px;
 }
@@ -64,13 +69,14 @@ body{
     background-color: var(--cor0);
 }
 main{
+    
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.386);
 
    text-align: justify  ;
    max-width: 800px;
-   min-width: 320px;
-   margin: auto;
-   margin-top: 30px;
+   min-width: 300px;
+    margin: auto;
+   margin-top: 0px;
    padding: 20px;
    background-color: wheat;
    
